@@ -1,0 +1,21 @@
+customer_id,first_name,last_name,email,phone,address,city,state,country,postal_code,registration_date,customer_segment,created_at
+CUST_000001,Nguyen,Van A,nguyenvana@email.com,+84-901-234-567,123 Le Loi Street,Ho Chi Minh City,Ho Chi Minh,Vietnam,70000,2023-01-15,premium,2024-08-08 10:00:00
+CUST_000002,Tran,Thi B,tranthib@email.com,+84-902-345-678,456 Nguyen Hue Boulevard,Ho Chi Minh City,Ho Chi Minh,Vietnam,70001,2023-02-20,standard,2024-08-08 10:00:00
+CUST_000003,Le,Van C,levanc@email.com,+84-903-456-789,789 Dong Khoi Street,Ho Chi Minh City,Ho Chi Minh,Vietnam,70002,2023-03-10,basic,2024-08-08 10:00:00
+CUST_000004,Pham,Thi D,phamthid@email.com,+84-904-567-890,321 Hai Ba Trung Street,Hanoi,Hanoi,Vietnam,10000,2023-04-05,premium,2024-08-08 10:00:00
+CUST_000005,Hoang,Van E,hoangvane@email.com,+84-905-678-901,654 Ba Trieu Street,Hanoi,Hanoi,Vietnam,10001,2023-05-12,standard,2024-08-08 10:00:00
+CUST_000006,Vu,Thi F,vuthif@email.com,+84-906-789-012,987 Tran Hung Dao Street,Da Nang,Da Nang,Vietnam,50000,2023-06-18,basic,2024-08-08 10:00:00
+CUST_000007,Dang,Van G,dangvang@email.com,+84-907-890-123,147 Bach Dang Street,Da Nang,Da Nang,Vietnam,50001,2023-07-25,premium,2024-08-08 10:00:00
+CUST_000008,Bui,Thi H,buithih@email.com,+84-908-901-234,258 Ly Thuong Kiet Street,Can Tho,Can Tho,Vietnam,90000,2023-08-30,standard,2024-08-08 10:00:00
+CUST_000009,Do,Van I,dovani@email.com,+84-909-012-345,369 Nguyen Trai Street,Hai Phong,Hai Phong,Vietnam,18000,2023-09-14,basic,2024-08-08 10:00:00
+CUST_000010,Ngo,Thi J,ngothij@email.com,+84-910-123-456,741 Le Duan Street,Hue,Thua Thien Hue,Vietnam,53000,2023-10-22,premium,2024-08-08 10:00:00
+CUST_000011,Ly,Van K,lyvank@email.com,+84-911-234-567,852 Phan Chu Trinh Street,Nha Trang,Khanh Hoa,Vietnam,65000,2023-11-08,standard,2024-08-08 10:00:00
+CUST_000012,Cao,Thi L,caothil@email.com,+84-912-345-678,963 Quang Trung Street,Quy Nhon,Binh Dinh,Vietnam,55000,2023-12-15,basic,2024-08-08 10:00:00
+CUST_000013,Mai,Van M,maivanm@email.com,+84-913-456-789,159 Vo Thi Sau Street,Vung Tau,Ba Ria Vung Tau,Vietnam,78000,2024-01-20,premium,2024-08-08 10:00:00
+CUST_000014,Ta,Thi N,tathin@email.com,+84-914-567-890,357 Tran Phu Street,Dalat,Lam Dong,Vietnam,67000,2024-02-28,standard,2024-08-08 10:00:00
+CUST_000015,Duong,Van O,duongvano@email.com,+84-915-678-901,468 Hung Vuong Street,Phan Thiet,Binh Thuan,Vietnam,77000,2024-03-16,basic,2024-08-08 10:00:00
+CUST_000016,Trinh,Thi P,trinhthip@email.com,+84-916-789-012,579 Le Thanh Ton Street,My Tho,Tien Giang,Vietnam,84000,2024-04-12,premium,2024-08-08 10:00:00
+CUST_000017,Lam,Van Q,lamvanq@email.com,+84-917-890-123,680 Nguyen Du Street,Long Xuyen,An Giang,Vietnam,88000,2024-05-07,standard,2024-08-08 10:00:00
+CUST_000018,Phan,Thi R,phanthir@email.com,+84-918-901-234,791 Dien Bien Phu Street,Rach Gia,Kien Giang,Vietnam,91000,2024-06-23,basic,2024-08-08 10:00:00
+CUST_000019,Truong,Van S,truongvans@email.com,+84-919-012-345,802 Cach Mang Thang 8 Street,Ca Mau,Ca Mau,Vietnam,97000,2024-07-11,premium,2024-08-08 10:00:00
+CUST_000020,Huynh,Thi T,huynhthit@email.com,+84-920-123-456,913 30 Thang 4 Street,Ho Chi Minh City,Ho Chi Minh,Vietnam,70003,2024-08-01,standard,2024-08-08 10:00:00
