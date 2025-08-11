@@ -1,0 +1,89 @@
+IATA_code,airport_name,city,state,country
+ATL,Hartsfield-Jackson Atlanta International Airport,Atlanta,GA,USA
+LAX,Los Angeles International Airport,Los Angeles,CA,USA
+ORD,O'Hare International Airport,Chicago,IL,USA
+DFW,Dallas/Fort Worth International Airport,Dallas,TX,USA
+DEN,Denver International Airport,Denver,CO,USA
+JFK,John F. Kennedy International Airport,New York,NY,USA
+SFO,San Francisco International Airport,San Francisco,CA,USA
+CLT,Charlotte Douglas International Airport,Charlotte,NC,USA
+LAS,McCarran International Airport,Las Vegas,NV,USA
+PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ,USA
+IAH,George Bush Intercontinental Airport,Houston,TX,USA
+MIA,Miami International Airport,Miami,FL,USA
+MCO,Orlando International Airport,Orlando,FL,USA
+EWR,Newark Liberty International Airport,Newark,NJ,USA
+SEA,Seattle-Tacoma International Airport,Seattle,WA,USA
+MSP,Minneapolis-Saint Paul International Airport,Minneapolis,MN,USA
+DTW,Detroit Metropolitan Airport,Detroit,MI,USA
+BOS,Logan International Airport,Boston,MA,USA
+PHL,Philadelphia International Airport,Philadelphia,PA,USA
+LGA,LaGuardia Airport,New York,NY,USA
+FLL,Fort Lauderdale-Hollywood International Airport,Fort Lauderdale,FL,USA
+BWI,Baltimore/Washington International Airport,Baltimore,MD,USA
+IAD,Dulles International Airport,Washington,DC,USA
+SLC,Salt Lake City International Airport,Salt Lake City,UT,USA
+SAN,San Diego International Airport,San Diego,CA,USA
+DCA,Ronald Reagan Washington National Airport,Washington,DC,USA
+MDW,Chicago Midway International Airport,Chicago,IL,USA
+HNL,Daniel K. Inouye International Airport,Honolulu,HI,USA
+TPA,Tampa International Airport,Tampa,FL,USA
+PDX,Portland International Airport,Portland,OR,USA
+STL,St. Louis Lambert International Airport,St. Louis,MO,USA
+BNA,Nashville International Airport,Nashville,TN,USA
+AUS,Austin-Bergstrom International Airport,Austin,TX,USA
+RDU,Raleigh-Durham International Airport,Raleigh,NC,USA
+MSY,Louis Armstrong New Orleans International Airport,New Orleans,LA,USA
+MCI,Kansas City International Airport,Kansas City,MO,USA
+SJC,Norman Y. Mineta San Jose International Airport,San Jose,CA,USA
+RSW,Southwest Florida International Airport,Fort Myers,FL,USA
+SAT,San Antonio International Airport,San Antonio,TX,USA
+CVG,Cincinnati/Northern Kentucky International Airport,Cincinnati,OH,USA
+PIT,Pittsburgh International Airport,Pittsburgh,PA,USA
+CLE,Cleveland Hopkins International Airport,Cleveland,OH,USA
+IND,Indianapolis International Airport,Indianapolis,IN,USA
+JAX,Jacksonville International Airport,Jacksonville,FL,USA
+CMH,John Glenn Columbus International Airport,Columbus,OH,USA
+CHS,Charleston International Airport,Charleston,SC,USA
+MEM,Memphis International Airport,Memphis,TN,USA
+RNO,Reno-Tahoe International Airport,Reno,NV,USA
+BUF,Buffalo Niagara International Airport,Buffalo,NY,USA
+BOI,Boise Airport,Boise,ID,USA
+MKE,Milwaukee Mitchell International Airport,Milwaukee,WI,USA
+PBI,Palm Beach International Airport,West Palm Beach,FL,USA
+OMA,Eppley Airfield,Omaha,NE,USA
+TUS,Tucson International Airport,Tucson,AZ,USA
+TUL,Tulsa International Airport,Tulsa,OK,USA
+ABQ,Albuquerque International Sunport,Albuquerque,NM,USA
+ONT,Ontario International Airport,Ontario,CA,USA
+SNA,John Wayne Airport,Santa Ana,CA,USA
+PVD,Theodore Francis Green Memorial State Airport,Providence,RI,USA
+MSN,Dane County Regional Airport,Madison,WI,USA
+RIC,Richmond International Airport,Richmond,VA,USA
+GEG,Spokane International Airport,Spokane,WA,USA
+GRR,Gerald R. Ford International Airport,Grand Rapids,MI,USA
+BHM,Birmingham-Shuttlesworth International Airport,Birmingham,AL,USA
+SYR,Syracuse Hancock International Airport,Syracuse,NY,USA
+ROC,Greater Rochester International Airport,Rochester,NY,USA
+LIT,Bill and Hillary Clinton National Airport,Little Rock,AR,USA
+DAY,Dayton International Airport,Dayton,OH,USA
+GSP,Greenville-Spartanburg International Airport,Greenville,SC,USA
+CRW,Yeager Airport,Charleston,WV,USA
+ACY,Atlantic City International Airport,Atlantic City,NJ,USA
+ALB,Albany International Airport,Albany,NY,USA
+ISP,Long Island MacArthur Airport,Islip,NY,USA
+CAK,Akron-Canton Regional Airport,Akron,OH,USA
+BTV,Burlington International Airport,Burlington,VT,USA
+PWM,Portland International Jetport,Portland,ME,USA
+AVP,Wilkes-Barre/Scranton International Airport,Scranton,PA,USA
+BGR,Bangor International Airport,Bangor,ME,USA
+CHO,Charlottesville-Albemarle Airport,Charlottesville,VA,USA
+ROA,Roanoke-Blacksburg Regional Airport,Roanoke,VA,USA
+ITH,Ithaca Tompkins Regional Airport,Ithaca,NY,USA
+BGM,Greater Binghamton Airport,Binghamton,NY,USA
+ELM,Elmira Corning Regional Airport,Elmira,NY,USA
+ERI,Erie International Airport,Erie,PA,USA
+ITH,Ithaca Tompkins Regional Airport,Ithaca,NY,USA
+BGM,Greater Binghamton Airport,Binghamton,NY,USA
+ELM,Elmira Corning Regional Airport,Elmira,NY,USA
+ERI,Erie International Airport,Erie,PA,USA 
