@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <!-- Cấu hình replication factor -->
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+        <description>Số bản sao của mỗi block (1 cho single node)</description>
+    </property>
+    
+    <!-- Thư mục lưu trữ NameNode -->
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>/opt/hadoop/hdfs/namenode</value>
+        <description>Thư mục lưu trữ metadata của NameNode</description>
+    </property>
+    
+    <!-- Thư mục lưu trữ DataNode -->
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>/opt/hadoop/hdfs/datanode</value>
+        <description>Thư mục lưu trữ dữ liệu của DataNode</description>
+    </property>
+    
+    <!-- Cấu hình block size -->
+    <property>
+        <name>dfs.blocksize</name>
+        <value>134217728</value>
+        <description>Kích thước block mặc định (128MB)</description>
+    </property>
+    
+    <!-- Cấu hình NameNode HTTP address -->
+    <property>
+        <name>dfs.namenode.http-address</name>
+        <value>0.0.0.0:9870</value>
+        <description>Địa chỉ HTTP của NameNode Web UI</description>
+    </property>
+    
+    <!-- Cấu hình Secondary NameNode -->
+    <property>
+        <name>dfs.namenode.secondary.http-address</name>
+        <value>0.0.0.0:9868</value>
+        <description>Địa chỉ HTTP của Secondary NameNode</description>
+    </property>
+    
+    <!-- Cấu hình DataNode HTTP address -->
+    <property>
+        <name>dfs.datanode.http.address</name>
+        <value>0.0.0.0:9864</value>
+        <description>Địa chỉ HTTP của DataNode Web UI</description>
+    </property>
+    
+    <!-- Cấu hình permissions -->
+    <property>
+        <name>dfs.permissions.enabled</name>
+        <value>false</value>
+        <description>Tắt kiểm tra quyền cho môi trường development</description>
+    </property>
+    
+    <!-- Cấu hình WebHDFS -->
+    <property>
+        <name>dfs.webhdfs.enabled</name>
+        <value>true</value>
+        <description>Bật WebHDFS REST API</description>
+    </property>
+</configuration>
+

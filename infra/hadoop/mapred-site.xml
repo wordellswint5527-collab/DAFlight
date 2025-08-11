@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <!-- Cấu hình MapReduce framework -->
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+        <description>Sử dụng YARN làm resource manager cho MapReduce</description>
+    </property>
+    
+    <!-- Cấu hình JobHistory Server -->
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>0.0.0.0:10020</value>
+        <description>Địa chỉ của MapReduce JobHistory Server</description>
+    </property>
+    
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>0.0.0.0:19888</value>
+        <description>Địa chỉ Web UI của JobHistory Server</description>
+    </property>
+    
+    <!-- Cấu hình memory cho Map tasks -->
+    <property>
+        <name>mapreduce.map.memory.mb</name>
+        <value>1024</value>
+        <description>Bộ nhớ cho mỗi Map task (MB)</description>
+    </property>
+    
+    <!-- Cấu hình memory cho Reduce tasks -->
+    <property>
+        <name>mapreduce.reduce.memory.mb</name>
+        <value>1024</value>
+        <description>Bộ nhớ cho mỗi Reduce task (MB)</description>
+    </property>
+    
+    <!-- Cấu hình Java heap size cho Map tasks -->
+    <property>
+        <name>mapreduce.map.java.opts</name>
+        <value>-Xmx768m</value>
+        <description>Java heap size cho Map tasks</description>
+    </property>
+    
+    <!-- Cấu hình Java heap size cho Reduce tasks -->
+    <property>
+        <name>mapreduce.reduce.java.opts</name>
+        <value>-Xmx768m</value>
+        <description>Java heap size cho Reduce tasks</description>
+    </property>
+    
+    <!-- Cấu hình Application Master -->
+    <property>
+        <name>yarn.app.mapreduce.am.resource.mb</name>
+        <value>1024</value>
+        <description>Bộ nhớ cho Application Master</description>
+    </property>
+    
+    <property>
+        <name>yarn.app.mapreduce.am.command-opts</name>
+        <value>-Xmx768m</value>
+        <description>Java heap size cho Application Master</description>
+    </property>
+    
+    <!-- Cấu hình intermediate data compression -->
+    <property>
+        <name>mapreduce.map.output.compress</name>
+        <value>true</value>
+        <description>Nén dữ liệu trung gian từ Map tasks</description>
+    </property>
+    
+    <property>
+        <name>mapreduce.map.output.compress.codec</name>
+        <value>org.apache.hadoop.io.compress.SnappyCodec</value>
+        <description>Codec nén cho dữ liệu trung gian</description>
+    </property>
+</configuration>
+
