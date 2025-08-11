@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one or more
+   contributor license agreements.  See the NOTICE file distributed with
+   this work for additional information regarding copyright ownership.
+   The ASF licenses this file to You under the Apache License, Version 2.0
+   (the "License"); you may not use this file except in compliance with
+   the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<configuration>
+    <!-- Cấu hình Metastore Database -->
+    <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:mysql://localhost:3306/hive_metastore?createDatabaseIfNotExist=true&amp;useSSL=false</value>
+        <description>JDBC connection URL cho Hive Metastore</description>
+    </property>
+    
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>com.mysql.cj.jdbc.Driver</value>
+        <description>JDBC driver class cho MySQL</description>
+    </property>
+    
+    <property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>hive</value>
+        <description>Username cho database connection</description>
+    </property>
+    
+    <property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>hive123</value>
+        <description>Password cho database connection</description>
+    </property>
+    
+    <!-- Cấu hình Hive Server 2 -->
+    <property>
+        <name>hive.server2.thrift.bind.host</name>
+        <value>0.0.0.0</value>
+        <description>Bind host cho HiveServer2 Thrift interface</description>
+    </property>
+    
+    <property>
+        <name>hive.server2.thrift.port</name>
+        <value>10000</value>
+        <description>Port cho HiveServer2 Thrift interface</description>
+    </property>
+    
+    <property>
+        <name>hive.server2.webui.host</name>
+        <value>0.0.0.0</value>
+        <description>Host cho HiveServer2 Web UI</description>
+    </property>
+    
+    <property>
+        <name>hive.server2.webui.port</name>
+        <value>10002</value>
+        <description>Port cho HiveServer2 Web UI</description>
+    </property>
+    
+    <!-- Cấu hình Metastore Service -->
+    <property>
+        <name>hive.metastore.uris</name>
+        <value>thrift://localhost:9083</value>
+        <description>URI của Hive Metastore service</description>
+    </property>
+    
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>/user/hive/warehouse</value>
+        <description>Thư mục warehouse trên HDFS</description>
+    </property>
+    
+    <!-- Cấu hình execution engine -->
+    <property>
+        <name>hive.execution.engine</name>
+        <value>mr</value>
+        <description>Execution engine (mr, tez, spark)</description>
+    </property>
+    
+    <!-- Cấu hình tối ưu hóa -->
+    <property>
+        <name>hive.exec.dynamic.partition</name>
+        <value>true</value>
+        <description>Bật dynamic partitioning</description>
+    </property>
+    
+    <property>
+        <name>hive.exec.dynamic.partition.mode</name>
+        <value>nonstrict</value>
+        <description>Mode cho dynamic partitioning</description>
+    </property>
+    
+    <property>
+        <name>hive.exec.max.dynamic.partitions</name>
+        <value>1000</value>
+        <description>Số partition tối đa</description>
+    </property>
+    
+    <property>
+        <name>hive.exec.max.dynamic.partitions.pernode</name>
+        <value>100</value>
+        <description>Số partition tối đa per node</description>
+    </property>
+    
+    <!-- Cấu hình compression -->
+    <property>
+        <name>hive.exec.compress.output</name>
+        <value>true</value>
+        <description>Nén output của Hive queries</description>
+    </property>
+    
+    <property>
+        <name>hive.exec.compress.intermediate</name>
+        <value>true</value>
+        <description>Nén intermediate data</description>
+    </property>
+    
+    <!-- Cấu hình file formats -->
+    <property>
+        <name>hive.default.fileformat</name>
+        <value>ORC</value>
+        <description>Default file format cho tables</description>
+    </property>
+    
+    <property>
+        <name>hive.default.fileformat.managed</name>
+        <value>ORC</value>
+        <description>Default file format cho managed tables</description>
+    </property>
+    
+    <!-- Cấu hình vectorization -->
+    <property>
+        <name>hive.vectorized.execution.enabled</name>
+        <value>true</value>
+        <description>Bật vectorized execution</description>
+    </property>
+    
+    <property>
+        <name>hive.vectorized.execution.reduce.enabled</name>
+        <value>true</value>
+        <description>Bật vectorized execution cho reduce tasks</description>
+    </property>
+    
+    <!-- Cấu hình statistics -->
+    <property>
+        <name>hive.stats.autogather</name>
+        <value>true</value>
+        <description>Tự động thu thập statistics</description>
+    </property>
+    
+    <property>
+        <name>hive.compute.query.using.stats</name>
+        <value>true</value>
+        <description>Sử dụng statistics để tối ưu queries</description>
+    </property>
+    
+    <!-- Cấu hình security -->
+    <property>
+        <name>hive.server2.authentication</name>
+        <value>NONE</value>
+        <description>Authentication mode cho HiveServer2</description>
+    </property>
+    
+    <!-- Cấu hình logging -->
+    <property>
+        <name>hive.server2.logging.operation.enabled</name>
+        <value>true</value>
+        <description>Bật operation logging</description>
+    </property>
+    
+    <property>
+        <name>hive.server2.logging.operation.log.location</name>
+        <value>/opt/hive/logs/operation</value>
+        <description>Thư mục lưu operation logs</description>
+    </property>
+</configuration>
+
